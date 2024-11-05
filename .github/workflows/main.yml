@@ -37,11 +37,11 @@ on:
       LOCAL_MANIFEST:
         description: "Personal local manifest [repository or raw]:"
         required: true
-        default: 'https://github.com/shashi-ui/local_mainfest'
+        default: 'https://github.com/dib12/local_manifest'
       LOCAL_MANIFEST_BRANCH:
         description: "Personal local manifest's branch:"
         required: false
-        default: 'main'
+        default: 'lineage-21'
       DEVICE_NAME:
         description: "Device's codename:"
         required: true
